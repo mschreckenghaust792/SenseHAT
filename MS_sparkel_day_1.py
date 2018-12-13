@@ -26,7 +26,9 @@ replies = ['Signs point to yes',
 def show_sparkel():
     global x
     x= random.randint(0, 8)
+    y= random.randint(0, 8)
     print (x)
+    print (y) 
 
 while True:
     x, y, z = sense.get_accelerometer_raw().values()
